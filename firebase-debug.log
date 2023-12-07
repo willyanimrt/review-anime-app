@@ -1,0 +1,22 @@
+[debug] [2023-11-26T14:01:26.527Z] ----------------------------------------------------------------------
+[debug] [2023-11-26T14:01:26.534Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Willyan Imarta\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js apps:sdkconfig android 1:933997815909:android:39bb0837d6384c14b3fe8c --json
+[debug] [2023-11-26T14:01:26.535Z] CLI Version:   12.9.1
+[debug] [2023-11-26T14:01:26.535Z] Platform:      win32
+[debug] [2023-11-26T14:01:26.536Z] Node Version:  v20.9.0
+[debug] [2023-11-26T14:01:26.536Z] Time:          Sun Nov 26 2023 21:01:26 GMT+0700 (Indochina Time)
+[debug] [2023-11-26T14:01:26.536Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-11-26T14:01:26.552Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-11-26T14:01:26.553Z] > authorizing via signed-in user (willyanimarta25@gmail.com)
+[debug] [2023-11-26T14:01:26.563Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/-/androidApps/1:933997815909:android:39bb0837d6384c14b3fe8c/config [none]
+[debug] [2023-11-26T14:01:26.680Z] Error: EPIPE: broken pipe, write
+    at Socket._write (node:internal/net:61:25)
+    at writeOrBuffer (node:internal/streams/writable:447:12)
+    at _write (node:internal/streams/writable:389:10)
+    at Writable.write (node:internal/streams/writable:393:10)
+    at Ora.start (C:\Users\Willyan Imarta\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\ora\index.js:304:17)
+    at Command.actionFn (C:\Users\Willyan Imarta\AppData\Roaming\npm\node_modules\firebase-tools\lib\commands\apps-sdkconfig.js:68:95)
+    at C:\Users\Willyan Imarta\AppData\Roaming\npm\node_modules\firebase-tools\lib\command.js:228:25
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[error] 
+[error] Error: An unexpected error has occurred.

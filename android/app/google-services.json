@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "777907238321",
+    "project_id": "projek-mobile-f51c8",
+    "storage_bucket": "projek-mobile-f51c8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:777907238321:android:10495e264ed22853683990",
+        "android_client_info": {
+          "package_name": "com.example.review_anime"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDL9p558nM08D-MoJjWHBLVCQXwO70danw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
